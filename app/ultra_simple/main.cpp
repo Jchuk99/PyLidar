@@ -30,6 +30,7 @@
 #include <string.h>
 
 #include "sl_lidar.h" 
+#include <rplidar.h>
 #include "sl_lidar_driver.h"
 #ifndef _countof
 #define _countof(_Array) (int)(sizeof(_Array) / sizeof(_Array[0]))
@@ -164,8 +165,10 @@ int main(int argc, const char * argv[]) {
 	}
 
     
+
     // create the driver instance
 	ILidarDriver * drv = *createLidarDriver();
+   
 
     if (!drv) {
         fprintf(stderr, "insufficent memory, exit\n");
@@ -177,8 +180,10 @@ int main(int argc, const char * argv[]) {
 
     if(opt_channel_type == CHANNEL_TYPE_SERIALPORT){
         if(useArgcBaudrate){
+            printf("%s\n", opt_channel_param_first);
+            printf("%d\n", opt_channel_param_second);
             _channel = (*createSerialPortChannel(opt_channel_param_first, opt_channel_param_second));
-            if (SL_IS_OK((drv)->connect(_channel))) {
+            if (SL_IS_OK(drv->connect(_channel))) {
                 op_result = drv->getDeviceInfo(devinfo);
 
                 if (SL_IS_OK(op_result)) 
