@@ -106,7 +106,7 @@ endif
 ifeq ($(BUILD_TARGET_PLATFORM),Darwin)
 CDEFS += -D_MACOS
 else
-LD_LIBS += -lrt
+LD_LIBS += -lrt -lm -ldl
 endif
 
 
