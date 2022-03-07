@@ -63,6 +63,12 @@ build_app: $(APP_TARGET)
 clean_app:
 	$(RMDIR) $(TARGET_OBJ_ROOT)
 	$(RM) $(APP_TARGET)
+	
+build_lib: $(LIB_TARGET)
+
+clean_lib:
+	$(RMDIR) $(TARGET_OBJ_ROOT)
+	$(RM) $(LIB_TARGET)
 
 $(SDK_TARGET): $(OBJ) $(EXTRA_OBJ)
 	$(MKDIR) `dirname $@`
@@ -71,7 +77,12 @@ $(SDK_TARGET): $(OBJ) $(EXTRA_OBJ)
 $(APP_TARGET): $(OBJ) $(EXTRA_OBJ) $(SDK_TARGET)
 	@$(MKDIR) `dirname $@`
 	@echo " LD   $@"
-	$(CMD_HIDE)$(CC) $(ALL_CXXFLAGS) -o $@ $^ $(LDFLAGS) -shared  
+	$(CMD_HIDE)$(CC) $(ALL_CXXFLAGS) -o $@ $^ $(LDFLAGS)  
+
+$(LIB_TARGET): $(OBJ) $(EXTRA_OBJ) $(SDK_TARGET)
+	@$(MKDIR) `dirname $@`
+	@echo " LD   $@"
+	$(CMD_HIDE)$(CC) $(ALL_CXXFLAGS) -o $@ $^ $(LDFLAGS) 
 
 
 #
