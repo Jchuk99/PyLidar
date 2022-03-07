@@ -29,8 +29,8 @@ C_INCLUDES += -I$(CURDIR)/../../sdk/include -I$(CURDIR)/../../sdk/src -I.
 EXTRA_OBJ := 
 LD_LIBS += -lstdc++ -lpthread
 
-all: build_app
+all: build_lib
 
 include $(HOME_TREE)/mak_common.inc
 
-clean: clean_app
+clean: clean_lib
