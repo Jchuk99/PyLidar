@@ -1,0 +1,13 @@
+﻿  Py_Wrapper.cpp
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\sdk\include\sl_lidar_protocol.h(58,11): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\sdk\include\sl_lidar_cmd.h(295,12): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\pylidar\Py_Wrapper.cpp(95,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     Creating library C:\Users\Udoka\Desktop\Projects\pylidar_sdk\workspaces\vc14\x64\Release\pylidar.lib and object C:\Users\Udoka\Desktop\Projects\pylidar_sdk\workspaces\vc14\x64\Release\pylidar.exp
+  Generating code
+  1 of 533 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  pylidar.vcxproj -> C:\Users\Udoka\Desktop\Projects\pylidar_sdk\workspaces\vc14\x64\Release\pylidar.dll

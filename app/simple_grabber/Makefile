@@ -20,7 +20,6 @@
 HOME_TREE := ../../
 
 MODULE_NAME := $(notdir $(CURDIR))
-$(info    MODULE_NAME is $(MODULE_NAME))
 
 include $(HOME_TREE)/mak_def.inc
 
@@ -32,6 +31,7 @@ LD_LIBS += -lstdc++ -lpthread
 
 all: build_app
 
+$(info    APP_TARGET is $(APP_TARGET))
 include $(HOME_TREE)/mak_common.inc
 
 clean: clean_app

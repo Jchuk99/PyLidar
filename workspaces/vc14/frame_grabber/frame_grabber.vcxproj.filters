@@ -86,6 +86,9 @@
     <ClInclude Include="..\..\..\app\frame_grabber\IpConfigDlg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\app\pylidar\PyLidar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\..\app\frame_grabber\framegrabber.rc">

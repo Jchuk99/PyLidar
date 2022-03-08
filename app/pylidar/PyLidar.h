@@ -23,14 +23,15 @@ class PyLidar
 protected:
 	// For setting scanmodes
 	std::vector<LidarScanMode> myscanModes;
+	sl_lidar_response_device_info_t devinfo;
+	LidarScanMode myScanMode;
 	ILidarDriver* _drv = NULL;
 	IChannel* _channel = NULL;
 
 	// some parameters to be set
 	const char* _port;
+	float frequency = 0.0;
 
-	// Creates a device info variable
-	rplidar_response_device_info_t devinfo;
 	bool connectSuccess = false;
 
 	// create a buffer to hold the scanned data
@@ -71,11 +72,16 @@ public:
 	// Setup connection to the rplidar.
 	// Connect Lidar
 	void connectlidar(void);
+	void disconnectlidar(void);
 	// destroy driver
 	void destroydriver(void);
+	bool isConnected(void);
+	// rest lidar, return true if succeed
+	bool reset(unsigned int timeout);
 	// A wrapper code for the checkhealth status
 	bool checkhealth(void);
-	void getDeviceInfo(void);
+	float getFrequency(void);
+	sl_lidar_response_device_info_t getDeviceInfo(void);
 	// stopping the motor
 	void stopmotor(void);
 	// starts the motor

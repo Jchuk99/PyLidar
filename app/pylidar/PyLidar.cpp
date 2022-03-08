@@ -22,8 +22,8 @@ PyLidar::PyLidar(const char* port, int baud_rate)
     }
 
     _channel = (*createSerialPortChannel(_port, _baud_rate));
-    printf("%s\n", _port);
-    printf("%d\n", _baud_rate);
+   // printf("%s\n", _port);
+   // printf("%d\n", _baud_rate);
 }
 
 PyLidar::~PyLidar()
@@ -46,7 +46,7 @@ void PyLidar::destroydriver(void)
 void PyLidar::connectlidar()
 {
     sl_result op_result;
-    printf("in pyLidar");
+    //printf("in pyLidar");
 
     if (SL_IS_OK(_drv->connect(_channel))) {
         op_result = _drv->getDeviceInfo(devinfo);
@@ -74,15 +74,45 @@ void PyLidar::connectlidar()
     }
 }
 
+void PyLidar::disconnectlidar()
+{
+    _drv->disconnect();  
+}
+
+bool PyLidar::isConnected()
+{
+   return _drv->isConnected();
+}
+
 
 // A wrapper code for the checkheatlh status
-bool PyLidar::checkhealth()
+bool PyLidar::checkhealth(void)
 {
     return checkRPLIDARHealth(_drv);
 }
 
+sl_lidar_response_device_info_t PyLidar::getDeviceInfo(void)
+{
+    sl_lidar_response_device_info_t devInfo;
+    _drv->getDeviceInfo(devinfo);
+    return devInfo;
+}
+
+float PyLidar::getFrequency(void) {
+    return frequency;
+}
+
+bool PyLidar::reset(unsigned int timeout) {
+    sl_result op = _drv->reset(timeout);
+    if (IS_OK(op)) {
+        return true;
+    }
+    return false;
+}
+
+
 // for stopping the motor
-void PyLidar::stopmotor()
+void PyLidar::stopmotor(void)
 {
     _drv->stop();
     printf("setting motor speed to 0");
@@ -95,7 +125,8 @@ void PyLidar::startmotor(int my_scanmode)
 {
     _drv->setMotorSpeed();
     _drv->getAllSupportedScanModes(myscanModes);
-    _drv->startScanExpress(false, myscanModes[my_scanmode].id);
+    myScanMode = myscanModes[my_scanmode];
+    _drv->startScanExpress(false, myScanMode.id);
 
 }
 
@@ -120,13 +151,14 @@ std::vector<std::vector<double>> PyLidar::get_scan_as_vectors(bool filter_qualit
             quality = nodes[pos].quality >> RPLIDAR_RESP_MEASUREMENT_QUALITY_SHIFT;
             if (quality > 0 || !filter_quality)
             {
-                sample.at(0) = nodes[pos].angle_z_q14 * 90.f / (1 << 14);
-                sample.at(1) = nodes[pos].dist_mm_q2 / 4.0f;
-                sample.at(2) = quality;
+                sample.at(0) = quality;
+                sample.at(1) = nodes[pos].angle_z_q14 * 90.f / (1 << 14);
+                sample.at(2) = nodes[pos].dist_mm_q2 / 4.0f;
                 output.push_back(sample);
             }
         }
     }
+    _drv->getFrequency(myScanMode, nodes, count, frequency);
     return output;
 }
 
@@ -157,6 +189,7 @@ double** PyLidar::get_scan_as_pointers(bool filter_quality)
             }
         }
     }
+    _drv->getFrequency(myScanMode, nodes, count, frequency);
     return output.data();
 }
 

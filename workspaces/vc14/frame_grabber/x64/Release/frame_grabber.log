@@ -1,0 +1,204 @@
+﻿  stdafx.cpp
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlgdi.h(469,66): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlgdi.h(476,66): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlgdi.h(483,66): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlgdi.h(490,66): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlgdi.h(3682,62): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atldlgs.h(3208,1): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atldlgs.h(3230,1): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atldlgs.h(3291,1): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atldlgs.h(3306,1): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\sdk\include\sl_lidar_protocol.h(58,11): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\sdk\include\sl_lidar_cmd.h(295,12): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3270,39): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3267): message : while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3664): message : see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3701): message : see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlx.h(3720): message : see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1081,40): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1076): message : while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1323): message : see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlx.h(1820): message : see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3970,67): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3964): message : while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): message : see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(4150): message : see reference to class template instantiation 'WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3910,62): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3860): message : while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3824): message : see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::_ProcessAllHookMessages(UINT,WPARAM,LPARAM)' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3839,61): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3833): message : while compiling class template member function 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3814): message : see reference to function template instantiation 'void WTL::CMDICommandBarCtrlImpl<WTL::CMDICommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::UpdateRebarBandIdealSize(void)' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2915,62): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2908): message : while compiling class template member function 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)'
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2068): message : see reference to function template instantiation 'bool WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>::DisplayChevronMenu(void)' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3269): message : see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<T,TBase,TWinTraits>' being compiled
+          with
+          [
+              T=WTL::CMDICommandBarCtrl,
+              TBase=WTL::CCommandBarCtrlBase,
+              TWinTraits=ATL::CControlWinTraits
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2935,67): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(2933): message : while compiling class template member function 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(1432): message : see reference to function template instantiation 'void WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>::GetSystemSettings(void)' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlctrlw.h(3258): message : see reference to class template instantiation 'WTL::CCommandBarCtrlImpl<WTL::CCommandBarCtrl,WTL::CCommandBarCtrlBase,ATL::CControlWinTraits>' being compiled
+  AboutDlg.cpp
+  AutoDiscoveryDlg.cpp
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\AutoDiscoveryDlg.cpp(93,11): warning C4101: 'm_ipaddr': unreferenced local variable
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(669,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(628): message : see reference to function template instantiation 'std::pair<std::string,int> *std::vector<std::pair<std::string,int>,std::allocator<std::pair<std::string,int>>>::_Emplace_reallocate<const _Ty&>(std::pair<std::string,int> *const ,const _Ty &)' being compiled
+          with
+          [
+              _Ty=std::pair<std::string,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(628): message : see reference to function template instantiation 'std::pair<std::string,int> *std::vector<std::pair<std::string,int>,std::allocator<std::pair<std::string,int>>>::_Emplace_reallocate<const _Ty&>(std::pair<std::string,int> *const ,const _Ty &)' being compiled
+          with
+          [
+              _Ty=std::pair<std::string,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(637): message : see reference to function template instantiation 'void std::vector<std::pair<std::string,int>,std::allocator<std::pair<std::string,int>>>::emplace_back<const _Ty&>(const _Ty &)' being compiled
+          with
+          [
+              _Ty=std::pair<std::string,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(636): message : while compiling class template member function 'void std::vector<std::pair<std::string,int>,std::allocator<std::pair<std::string,int>>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=std::pair<std::string,int>
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\AutoDiscoveryDlg.cpp(107): message : see reference to function template instantiation 'void std::vector<std::pair<std::string,int>,std::allocator<std::pair<std::string,int>>>::push_back(const _Ty &)' being compiled
+          with
+          [
+              _Ty=std::pair<std::string,int>
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\AutoDiscoveryDlg.cpp(46): message : see reference to class template instantiation 'std::vector<std::pair<std::string,int>,std::allocator<std::pair<std::string,int>>>' being compiled
+  ChooseConnectionDlg.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(669,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(628): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> *std::vector<std::string,std::allocator<std::string>>::_Emplace_reallocate<_Ty>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(628): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> *std::vector<std::string,std::allocator<std::string>>::_Emplace_reallocate<_Ty>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(642): message : see reference to function template instantiation 'void std::vector<std::string,std::allocator<std::string>>::emplace_back<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(640): message : while compiling class template member function 'void std::vector<std::string,std::allocator<std::string>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ChooseConnectionDlg.cpp(44): message : see reference to function template instantiation 'void std::vector<std::string,std::allocator<std::string>>::push_back(_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ChooseConnectionDlg.h(103): message : see reference to class template instantiation 'std::vector<std::string,std::allocator<std::string>>' being compiled
+  lidarmgr.cpp
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\drvlogic\lidarmgr.cpp(33,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h(26): message : see previous definition of 'assert'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\drvlogic\lidarmgr.cpp(115,58): warning C4305: 'return': truncation from 'unsigned int' to 'bool'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\drvlogic\lidarmgr.cpp(142,58): warning C4305: 'return': truncation from 'unsigned int' to 'bool'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\drvlogic\lidarmgr.cpp(169,58): warning C4305: 'return': truncation from 'unsigned int' to 'bool'
+  framegrabber.cpp
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(991,61): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(989): message : while compiling class template member function 'bool WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::PrepareChevronMenu(WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::_ChevronMenuInfo &)'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(1255): message : see reference to function template instantiation 'bool WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::PrepareChevronMenu(WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::_ChevronMenuInfo &)' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(1279): message : see reference to class template instantiation 'WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>' being compiled
+  FreqSetDlg.cpp
+  IpConfigDlg.cpp
+  MainFrm.cpp
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(49,28): warning C4244: 'argument': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(142,120): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(142,120): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(213,54): warning C4267: '=': conversion from 'size_t' to 'sl_u16', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(315,37): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(315,37): message : consider using '%zd' in the format string
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(350,109): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(350,109): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(351,90): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(400,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(407,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\MainFrm.cpp(409,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(602,63): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(586): message : while compiling class template member function 'BOOL WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::AddSimpleReBarBandCtrl(HWND,HWND,int,LPCTSTR,BOOL,int,BOOL)'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(681): message : see reference to function template instantiation 'BOOL WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::AddSimpleReBarBandCtrl(HWND,HWND,int,LPCTSTR,BOOL,int,BOOL)' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(1279): message : see reference to class template instantiation 'WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>' being compiled
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(991,61): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(989): message : while compiling class template member function 'bool WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::PrepareChevronMenu(WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::_ChevronMenuInfo &)'
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\ref\wtl\atlframe.h(1255): message : see reference to function template instantiation 'bool WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::PrepareChevronMenu(WTL::CFrameWindowImplBase<ATL::CWindow,ATL::CFrameWinTraits>::_ChevronMenuInfo &)' being compiled
+  scanView.cpp
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.cpp(101,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.cpp(102,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.cpp(130,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.cpp(131,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.cpp(133,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.cpp(157,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.cpp(158,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.cpp(216,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.cpp(218,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(669,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(628): message : see reference to function template instantiation 'scanDot *std::vector<scanDot,std::allocator<scanDot>>::_Emplace_reallocate<const _Ty&>(scanDot *const ,const _Ty &)' being compiled
+          with
+          [
+              _Ty=scanDot
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(628): message : see reference to function template instantiation 'scanDot *std::vector<scanDot,std::allocator<scanDot>>::_Emplace_reallocate<const _Ty&>(scanDot *const ,const _Ty &)' being compiled
+          with
+          [
+              _Ty=scanDot
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(637): message : see reference to function template instantiation 'void std::vector<scanDot,std::allocator<scanDot>>::emplace_back<const _Ty&>(const _Ty &)' being compiled
+          with
+          [
+              _Ty=scanDot
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(636): message : while compiling class template member function 'void std::vector<scanDot,std::allocator<scanDot>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=scanDot
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.cpp(264): message : see reference to function template instantiation 'void std::vector<scanDot,std::allocator<scanDot>>::push_back(const _Ty &)' being compiled
+          with
+          [
+              _Ty=scanDot
+          ]
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\app\frame_grabber\scanView.h(79): message : see reference to class template instantiation 'std::vector<scanDot,std::allocator<scanDot>>' being compiled
+  Generating Code...
+  rplidar_driver.lib(thread.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+AutoDiscoveryDlg.obj : error LNK2001: unresolved external symbol DNSServiceRefSockFD
+AutoDiscoveryDlg.obj : error LNK2001: unresolved external symbol DNSServiceProcessResult
+AutoDiscoveryDlg.obj : error LNK2001: unresolved external symbol DNSServiceRefDeallocate
+AutoDiscoveryDlg.obj : error LNK2001: unresolved external symbol DNSServiceBrowse
+AutoDiscoveryDlg.obj : error LNK2001: unresolved external symbol DNSServiceResolve
+AutoDiscoveryDlg.obj : error LNK2001: unresolved external symbol DNSServiceCreateConnection
+C:\Users\Udoka\Desktop\Projects\pylidar_sdk\workspaces\vc14\x64\Release\frame_grabber.exe : fatal error LNK1120: 6 unresolved externals
