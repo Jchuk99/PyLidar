@@ -4,7 +4,10 @@
 #include <string>
 #include <vector>
 #include <cmath>
+#if defined _WIN32
 #include <corecrt_math_defines.h>
+#else
+#endif
 #include <rplidar.h>
 using namespace sl;
 
