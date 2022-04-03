@@ -37,7 +37,7 @@
 #
 #
 
-.PHONY: make_subs build_sdk build_app clean_sdk clean_app
+.PHONY: make_subs build_sdk build_app clean_sdk clean_app clean_lib
 
 make_subs:
 	@for subdir in $(MAKE_TARGETS) ; do  $(MAKE) -C $$subdir $(MAKECMDGOALS) || exit 1;  done
@@ -82,7 +82,7 @@ $(APP_TARGET): $(OBJ) $(EXTRA_OBJ) $(SDK_TARGET)
 $(LIB_TARGET): $(OBJ) $(EXTRA_OBJ) $(SDK_TARGET)
 	@$(MKDIR) `dirname $@`
 	@echo " LD   $@"
-	$(CMD_HIDE)$(CC) $(ALL_CXXFLAGS) -o $@ $^ $(LDFLAGS) 
+	$(CMD_HIDE)$(CC) $(ALL_CXXFLAGS) -o $@ $^ $(LDFLAGS) -shared 
 
 
 #
